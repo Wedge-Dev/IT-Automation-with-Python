@@ -10,8 +10,9 @@ def is_power_of_two(n):
     # If after dividing by two the number is 1, it's a power of two
     if n == 1:
       return True
-    return False
-  
+    else:
+        return False
+
 
 print(is_power_of_two(0)) # Should be False
 print(is_power_of_two(1)) # Should be True

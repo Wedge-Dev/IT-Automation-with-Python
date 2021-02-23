@@ -6,11 +6,11 @@ def is_power_of(number, base):
     # If number is equal to 1, it's a power (base**0).
     return False
   elif base * base == number:
-    return True 
+    return True
   # Recursive case: keep dividing number by base.
   return is_power_of(number/base, base)
 
 print(is_power_of(8,2)) # Should be True
 print(is_power_of(64,4)) # Should be True
 print(is_power_of(70,10)) # Should be False
-
+print(is_power_of(3,9)) # Should be False

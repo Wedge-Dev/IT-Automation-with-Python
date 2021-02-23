@@ -11,3 +11,5 @@ def count_users(group):
 print(count_users("sales")) # Should be 3
 print(count_users("engineering")) # Should be 8
 print(count_users("everyone")) # Should be 18
+
+# Will not run in IDE!! get_members etc. not defined...

@@ -3,3 +3,7 @@
 def is_positive(number):
   if number > 0:
     return True
+
+print(is_positive(-5)) #return None
+print(is_positive(0)) #return None
+print(is_positive(13)) #return True

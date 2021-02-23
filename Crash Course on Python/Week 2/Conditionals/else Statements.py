@@ -5,3 +5,7 @@ def is_positive(number):
     return True
   else:
     return False
+
+print(is_positive(-5)) # False
+print(is_positive(0)) # False
+print(is_positive(13)) # True

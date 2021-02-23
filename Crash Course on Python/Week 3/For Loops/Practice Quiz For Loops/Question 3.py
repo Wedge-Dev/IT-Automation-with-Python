@@ -2,3 +2,8 @@
 
 for x in range(1,11):
   print(x**3)
+
+#or
+
+for x in range(10):
+  print((x+1)**3)

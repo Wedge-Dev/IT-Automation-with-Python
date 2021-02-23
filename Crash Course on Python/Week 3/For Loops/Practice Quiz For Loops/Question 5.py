@@ -10,3 +10,5 @@ def retry(operation, attempts):
 
 retry(create_user, 3)
 retry(stop_service, 5)
+
+#will not run in IDE! create_user & stop_service not defined...
